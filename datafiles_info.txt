@@ -1,0 +1,11 @@
+AssetInfo{510050.SH, 上证50ETF, SZ50ETF, SH, asset}     (4420, 7) 2005-02-23 2023-04-25
+AssetInfo{510300.SH, 沪深300ETF, HS300ETF, SH, asset}   (2655, 7) 2012-05-28 2023-04-25
+AssetInfo{510500.SH, 中证500ETF, ZZ500ETF, SH, asset}   (2459, 7) 2013-03-15 2023-04-25
+AssetInfo{159915.SZ, 创业板ETF, CYBETF, SZ, asset}      (2763, 7) 2011-12-09 2023-04-25
+AssetInfo{159949.SZ, 创业板50ETF, CYB50ETF, SZ, asset}  (1643, 7) 2016-07-22 2023-04-25
+AssetInfo{588000.SH, 科创50ETF, KC50ETF, SH, asset}     (594, 7)  2020-11-16 2023-04-25
+AssetInfo{518880.SH, 黄金ETF, HJETF, SH, asset}         (2372, 7) 2013-07-29 2023-04-25
+AssetInfo{159781.SZ, 双创50ETF, SC50ETF, SZ, asset}     (440, 7)  2021-07-05 2023-04-25
+AssetInfo{159601.SZ, A50ETF, A50ETF, SZ, asset}         (357, 7)  2021-11-08 2023-04-25
+
+注：数据文件中的open high low close都是经过除权、分红修正的（adjusted）。
