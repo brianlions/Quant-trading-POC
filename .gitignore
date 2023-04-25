@@ -1,0 +1,8 @@
+.*
+__pycache__/
+datasets/mnist/t10k-images-idx3-ubyte
+datasets/mnist/t10k-labels-idx1-ubyte
+datasets/mnist/train-images-idx3-ubyte
+datasets/mnist/train-labels-idx1-ubyte
+datasets/ISLR2
+*.json
