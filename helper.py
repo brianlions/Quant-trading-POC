@@ -28,7 +28,7 @@ def datafiles_info_v2():
             fields = line.split()
             code   = fields[0][fields[0].find('{')+1:-1]
             name   = fields[1][:-1]
-            abbr   = fields[2]
+            abbr   = fields[2][:-1]
             first  = fields[-2]
             last   = fields[-1]
             file   = './datafiles/{}_{}_{}.xlsx'.format(code, first, last)
