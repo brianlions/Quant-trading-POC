@@ -7,4 +7,5 @@ quantitative trading algorithms - proof of concept
 - [Kelly Formula & Portfolio: one risk asset + one risk-free asset](/kelly_optimal_leverage.ipynb)
 - [Kelly Formula & Portfolio: portfolio risk management, capital allocation](/kelly_portfolio_allocation.ipynb)
 - [Maximum Drawdown & Maximum Drawdown Duration](/max_drawdown_and_duration.ipynb)
-- [Pairs Trading](/pairs_trading.ipynb)
+- [Pairs Trading - vanilla](/pairs_trading_vanilla.ipynb)
+- [Pairs Trading - rolling window](/pairs_trading_rolling_window.ipynb)

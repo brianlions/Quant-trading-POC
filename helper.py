@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import collections
+import time
 
 def datafiles_info():
     res = {}
@@ -40,3 +41,41 @@ def chinese_font_setup():
     import matplotlib.pyplot as plt
     plt.rcParams['font.sans-serif'] = ['KaiTi']
     plt.rcParams['axes.unicode_minus'] = False
+
+class StopWatch(object):
+    def __init__(self):
+        self._start_time = time.time()
+        self._stop_time = None
+        self._last_check_time = None
+
+    def start(self):
+        self._start_time = time.time()
+        self._stop_time = None
+        self._last_check_time = None
+
+    def stop(self):
+        self._stop_time = time.time()
+
+    def elapse_time(self):
+        '''Note: return value will not change if stopped.'''
+
+        if not self._stop_time:
+            return time.time() - self._start_time
+        else:
+            return self._stop_time - self._start_time
+
+    def delta_time(self):
+        '''Note: return value will not change if stopped.'''
+
+        if not self._stop_time:
+            now = time.time()
+            if not self._last_check_time:
+                delta = now - self._start_time
+            else:
+                delta = now - self._last_check_time
+            self._last_check_time = now
+            return delta
+        elif self._last_check_time:
+            return self._stop_time - self._last_check_time
+        else:
+            return self._stop_time - self._start_time
